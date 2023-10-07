@@ -1,0 +1,14 @@
+import pyautogui as pyui
+import time
+import os
+from git import Repo
+
+while True:
+    # Obtiene la posición actual del mouse
+    x, y = pyui.position()
+    
+    # Muestra la posición del mouse
+    print(f"Posición del mouse: X={x}, Y={y}")
+    
+    # Espera un segundo antes de mostrar la próxima posición
+    time.sleep(1)
