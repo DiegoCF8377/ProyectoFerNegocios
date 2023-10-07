@@ -30,7 +30,13 @@ def git_push():
 
 while True:
     # Obtiene la posición actual del mouse
-    time.sleep(5)
+    time.sleep(1)
+    res = pyui.locateOnScreen(("Reload.png"),confidence=0.8)#Debes de tener tiktok abierto
+    res = pyui.center(res)
+    pyui.moveTo(res)
+    pyui.click()
+    time.sleep(1)
+    
     x, y = pyui.position()
     
     # Muestra la posición del mouse
@@ -41,14 +47,4 @@ while True:
     screenshot.save('captura.png')
     screenshot.close()
     git_push()
-    break
     # Espera un segundo antes de mostrar la próxima posición
-    time.sleep(1)
-    res = pyui.locateOnScreen(("Reload.png"),confidence=0.8)#Debes de tener tiktok abierto
-    res = pyui.center(res)
-    pyui.moveTo(res)
-    pyui.click()
-    time.sleep(1)
-    time.sleep(1)
-    time.sleep(1)
-    
