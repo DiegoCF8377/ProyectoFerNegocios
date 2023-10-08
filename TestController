@@ -6,7 +6,7 @@ from git import Repo
 #Datos de donde tomar la imagen
 x1=319
 y1=451
-x2=579
+x2=1106
 y2=793
 
 
