@@ -1,8 +1,8 @@
 import streamlit as st
-st.image("Principa.png",caption="No estas comprando capa de ozono, tu eres capa de ozono",use_column_width=True)
+st.image("Principa.png",use_column_width=True)
 
 # Título con estilo
-st.title("Capa de Ozono")
+st.title("Pisa fuerte, marca tendencia con Capa de Ozono")
 
 # Texto con formato
 st.write("Aquí encontrarás Lo ultimo en moda")
