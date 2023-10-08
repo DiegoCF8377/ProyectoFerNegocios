@@ -9,4 +9,4 @@ st.subheader("""Aquí encontrarás Lo ultimo en moda""")
 
 # Imágenes con títulos y dimensiones personalizadas
 st.image("captura.png", caption="Últimos videos populares en TikTok", width=300)
-st.image("Payaso.png", caption="Zapatos elegantes :D", width=300)
+st.image("Payaso.png",use_column_width=True)
