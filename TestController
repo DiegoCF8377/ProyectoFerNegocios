@@ -4,10 +4,10 @@ import os
 from git import Repo
 
 #Datos de donde tomar la imagen
-x1=319
-y1=451
-x2=1106
-y2=793
+x1=313
+y1=350
+x2=844
+y2=721
 
 
 
@@ -30,7 +30,7 @@ def git_push():
 
 while True:
     # Obtiene la posición actual del mouse
-    time.sleep(1)
+    
     res = pyui.locateOnScreen(("Reload.png"),confidence=0.8)#Debes de tener tiktok abierto
     res = pyui.center(res)
     pyui.moveTo(res)
@@ -38,7 +38,7 @@ while True:
     time.sleep(1)
     
     x, y = pyui.position()
-    
+    time.sleep(20)
     # Muestra la posición del mouse
     
     
