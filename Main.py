@@ -8,5 +8,5 @@ st.video("video.mp4", format="video/mp4", start_time=0)
 st.subheader("""Aquí encontrarás Lo ultimo en moda""")
 
 # Imágenes con títulos y dimensiones personalizadas
-st.image("captura.png", caption="Últimos videos populares en TikTok", width=300)
+st.image("captura.png", caption="Últimos videos populares en TikTok", width=600)
 st.image("Payaso.png",use_column_width=True)
