@@ -1,4 +1,5 @@
 import streamlit as st
+st.image("Principa.png", width=300)
 
 # Título con estilo
 st.title("Capa de Ozono")
